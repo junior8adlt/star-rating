@@ -1,0 +1,32 @@
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.on {
+  color: #ecae28;
+}
+button .on {
+  border-color: 2px solid #000;
+}
+.off {
+  color: #cccccc;
+}
+
+.btn {
+  border: 1px solid #ec7676;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  transition: 300ms;
+}
+
+.btn:hover {
+  background-color: #ee4b4b;
+  color: white;
+}
